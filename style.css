@@ -1,0 +1,116 @@
+nav {
+  font-size: 16px;
+  margin: 20px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+}
+
+a {
+  text-decoration-line: none;
+  padding: 16px;
+  /* 여기 다시 조절하기 */
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: #d4d4d4;
+  border-radius: 30px;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+
+.introduction {
+  align-self: center;
+  margin-left: 32px;
+}
+
+.hi {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tagline {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.front {
+  color: gray;
+}
+
+h1 {
+  font-size: 20px;
+  justify-self: center;
+}
+.about-me {
+  border: 2px dashed red;
+  justify-self: center;
+}
+
+.portfolio {
+  border: 2px dashed rgb(255, 4, 180);
+  justify-self: center;
+}
+
+.skills {
+  border: 2px dashed red;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skill-language {
+  border: 2px dashed blue;
+  display: flex;
+  align-items: flex-start;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+}
+
+.skill-front {
+  border: 2px dashed orange;
+  display: flex;
+  align-items: flex-start;
+}
+
+.front-end {
+  display: flex;
+  align-items: center;
+}
+
+.skill-design {
+  border: 2px dashed green;
+  display: flex;
+  align-items: flex-start;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  font-weight: 500;
+}
