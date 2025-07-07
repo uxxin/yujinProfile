@@ -53,12 +53,10 @@ h1 {
   justify-self: center;
 }
 .about-me {
-  border: 2px dashed red;
   justify-self: center;
 }
 
 .portfolio {
-  border: 2px dashed rgb(255, 4, 180);
   display: flex;
   justify-content: center;
 }
@@ -74,12 +72,10 @@ h1 {
 }
 
 .portfolio li {
-  background-color: #f5f5f5;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
   font-weight: 500;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project-card {
@@ -90,7 +86,7 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .project-logo {
@@ -126,15 +122,22 @@ h1 {
   font-weight: 400;
 }
 
+.project-tag {
+  background-color: rgb(43, 131, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 12px;
+}
+
 .skills {
-  border: 2px dashed red;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin: 80px;
 }
 
 .skill-language {
-  border: 2px dashed blue;
   display: flex;
   align-items: flex-start;
 }
@@ -145,7 +148,6 @@ h1 {
 }
 
 .skill-front {
-  border: 2px dashed orange;
   display: flex;
   align-items: flex-start;
 }
@@ -156,7 +158,6 @@ h1 {
 }
 
 .skill-design {
-  border: 2px dashed green;
   display: flex;
   align-items: flex-start;
 }
@@ -177,5 +178,4 @@ li {
   list-style: none;
   padding: 10px;
   font-weight: 400;
-  border: 2px dashed goldenrod;
 }
