@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Pretendard Variable", sans-serif;
 }
@@ -76,12 +79,12 @@ a:link {
 }
 
 .hi {
-  font-size: 52px;
+  font-size: 32px;
   font-weight: 600;
 }
 
 .tagline {
-  font-size: 52px;
+  font-size: 38px;
   font-weight: 700;
   margin-bottom: 16px;
 }
@@ -128,7 +131,7 @@ a:link {
 
 .section-wrapper {
   max-width: 900px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   scroll-margin-top: 80px;
 }
 
